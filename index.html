@@ -8,12 +8,34 @@
     <meta name="author" content="Francisco Villegas" />
     <meta name="description" content="Rock paper scissors game project" />
     <link rel="stylesheet" href="style.css" />
-    <script src="rock-paper-scissors-game.js"></script>
   </head>
 
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <nav class="main-header-nav">
+        <h1>Rock paper scissors!</h1>
+      </nav>
+    </header>
+
+    <main>
+      <section class="rps-game">
+        <article class="rps-game__choices">
+          <button class="rps-game__choices__rock">Rock</button>
+          <button class="rps-game__choices__paper">Paper</button>
+          <button class="rps-game__choices__scissors">Scissors</button>
+        </article>
+
+        <article class="rps-game__output">
+          <p class="rps-game__output__winner"></p>
+          <p class="rps-game__output__player-score"></p>
+          <p class="rps-game__output__computer-score"></p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section></section>
+    </footer>
   </body>
+  <script src="rock-paper-scissors-game.js"></script>
 </html>

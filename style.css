@@ -1,3 +1,42 @@
 body {
   background-color: #000000f0;
 }
+
+.main-header-nav {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffffff;
+  border-bottom: 2px solid #fffffff0;
+  margin-bottom: 2rem;
+}
+
+.rps-game {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.rps-game__choices {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rps-game__output {
+  display: flex;
+  flex-flow: column wrap;
+  color: #ffffffff;
+  align-items: center;
+}
+
+.rps-game__reset-button {
+  margin-top: 1rem;
+  flex: 0 1 auto;
+}
